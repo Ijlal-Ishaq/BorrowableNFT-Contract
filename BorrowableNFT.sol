@@ -15,7 +15,7 @@ contract BorrowableNFT is ERC721Enumerable, Ownable {
 
     mapping(uint=>BorrowDetail) private borrowDetails;
 
-    constructor() ERC721("FractionalNFT", "F-NFT") {
+    constructor() ERC721("BorrowableNFT", "B-NFT") {
         tokenId.increment();
     }
 
